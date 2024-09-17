@@ -41,6 +41,7 @@ curl -fsSL https://install.julialang.org | sh
     - Comparison with other languages like Python and MATLAB in terms of performance and syntax.
   - Multiple Dispatch:
     - Explanation of Julia’s unique multiple dispatch system, with examples to showcase its flexibility and performance benefits.
+    - Interfaces (demo, examples)
   - Package Manager (Pkg):
     - Introduction to managing Julia packages: adding, updating, and removing packages.
     - Quick look at useful development tools provided by the package manager.
@@ -52,6 +53,7 @@ curl -fsSL https://install.julialang.org | sh
     - Unitful: Managing physical units in calculations to avoid errors.
     - Distributions: Working with statistical distributions for simulations and data analysis.
         - Focus on the main functions related to stats.
+    - DelimitedFiles.jl
     
 5. Plotting:
   - Introduction to plotting in Julia using Plots.jl, with examples of common plots.
