@@ -17,10 +17,6 @@ curl -fsSL https://install.julialang.org | sh
 # Agenda
 
 ### Introduction to Julia
-#### Why Julia?
-
-1. Overview of Julia’s key features: speed, ease of use, and suitability for scientific computing.
-2. Comparison with other languages like Python and MATLAB in terms of performance and syntax.
 
 #### Setting Up a Julia Environment:
 
@@ -40,6 +36,9 @@ curl -fsSL https://install.julialang.org | sh
     - File I/O: Basics of reading from and writing to files.
     
 3. Leveraging Julia’s Power
+  - Why Julia?
+    - Overview of Julia’s key features: speed, ease of use, and suitability for scientific computing.
+    - Comparison with other languages like Python and MATLAB in terms of performance and syntax.
   - Multiple Dispatch:
     - Explanation of Julia’s unique multiple dispatch system, with examples to showcase its flexibility and performance benefits.
   - Package Manager (Pkg):
@@ -52,6 +51,7 @@ curl -fsSL https://install.julialang.org | sh
     - DataFrames: Handling tabular data, similar to pandas in Python.
     - Unitful: Managing physical units in calculations to avoid errors.
     - Distributions: Working with statistical distributions for simulations and data analysis.
+        - Focus on the main functions related to stats.
     
 5. Plotting:
   - Introduction to plotting in Julia using Plots.jl, with examples of common plots.
