@@ -11,9 +11,6 @@ winget install julia -s msstore
 curl -fsSL https://install.julialang.org | sh
 ```
 
-
-### [Syntax Tutorial](syntax.ipynb)
-
 # Agenda
 
 ### Introduction to Julia
@@ -25,7 +22,7 @@ curl -fsSL https://install.julialang.org | sh
   - Jupyter Notebooks: Setting up Julia kernels for interactive computing.
   - REPL: Introduction to Julia’s command-line interface for quick tests and explorations.
 
-2. Julia Syntax Essentials
+2. [Julia Syntax Essentials](syntax.ipynb)
   - Core Syntax:
     - Functions: Defining and calling functions, using multiple return values.
     - Loops & Conditionals: Understanding control flow with for, while, if, and else.
