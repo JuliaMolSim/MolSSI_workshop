@@ -55,7 +55,7 @@ curl -fsSL https://install.julialang.org | sh
 5. Plotting:
   - Introduction to plotting in Julia using Plots.jl, with examples of common plots.
 
-6. Benchmarking and Optimizing Code
+6. [Benchmarking and Optimizing Code:](optimization.ipynb)
   - BenchmarkTools.jl: How to measure code performance accurately.
   - Array Views & Memory Allocations: Techniques to reduce memory usage and improve performance.
   - Type Stability: Understanding and ensuring type stability for faster execution.
