@@ -22,15 +22,14 @@ curl -fsSL https://install.julialang.org | sh
   - Jupyter Notebooks: Setting up Julia kernels for interactive computing.
   - REPL: Introduction to Julia’s command-line interface for quick tests and explorations.
 
-2. Julia Syntax Essentials
-  - [Core Syntax:](syntax.ipynb)
-    - Functions: Defining and calling functions, using multiple return values.
-    - Loops & Conditionals: Understanding control flow with for, while, if, and else.
-    - Variables & Types: Introduction to Julia’s type system, variable scope, and immutability.
-    - Structs: Creating custom types with struct for more complex data structures.
-    - Broadcasting: Efficiently applying functions across arrays and other collections.
-    - Unicode Characters: Using Unicode for clearer and more readable code.
-    - File I/O: Basics of reading from and writing to files.
+2. [Julia Syntax Essentials:](syntax.ipynb)
+  - Functions: Defining and calling functions, using multiple return values.
+  - Loops & Conditionals: Understanding control flow with for, while, if, and else.
+  - Variables & Types: Introduction to Julia’s type system, variable scope, and immutability.
+  - Structs: Creating custom types with struct for more complex data structures.
+  - Broadcasting: Efficiently applying functions across arrays and other collections.
+  - Unicode Characters: Using Unicode for clearer and more readable code.
+  - File I/O: Basics of reading from and writing to files.
     
 3. Leveraging Julia’s Power
   - Why Julia?
@@ -55,7 +54,7 @@ curl -fsSL https://install.julialang.org | sh
 5. Plotting:
   - Introduction to plotting in Julia using Plots.jl, with examples of common plots.
 
-6. Benchmarking and Optimizing Code
+6. [Benchmarking and Optimizing Code:](optimization.ipynb)
   - BenchmarkTools.jl: How to measure code performance accurately.
   - Array Views & Memory Allocations: Techniques to reduce memory usage and improve performance.
   - Type Stability: Understanding and ensuring type stability for faster execution.
