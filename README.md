@@ -14,14 +14,12 @@ curl -fsSL https://install.julialang.org | sh
 
 ### Introduction to Julia
 
-<details>
-  <summary>#### Setting Up a Julia Environment:</summary>
+## Setting Up a Julia Environment:
 
 1. Step-by-step guide to setting up Julia in different environments:
   - VSCode: Installing the Julia extension and configuring the workspace.
   - Jupyter Notebooks: Setting up Julia kernels for interactive computing.
   - REPL: Introduction to Julia’s command-line interface for quick tests and explorations.
-</details>
 
 2. [Julia Syntax Essentials:](syntax.ipynb)
   - Functions: Defining and calling functions, using multiple return values.
