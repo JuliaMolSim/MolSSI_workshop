@@ -30,7 +30,7 @@ curl -fsSL https://install.julialang.org | sh
   - Unicode Characters: Using Unicode for clearer and more readable code.
   - File I/O: Basics of reading from and writing to files.
     
-3. Leveraging Julia’s Power
+3. [Leveraging Julia’s Power](whyjulia.ipynb)
   - Why Julia?
     - Overview of Julia’s key features: speed, ease of use, and suitability for scientific computing.
     - Comparison with other languages like Python and MATLAB in terms of performance and syntax.
@@ -41,7 +41,7 @@ curl -fsSL https://install.julialang.org | sh
     - Introduction to managing Julia packages: adding, updating, and removing packages.
     - Quick look at useful development tools provided by the package manager.
 
-4. Working with Numerical Data
+4. [Working with Numerical Data](numericaldata.ipynb)
   - Key Packages:
     - LinearAlgebra: Essential functions for matrix operations and linear algebra.
     - DataFrames: Handling tabular data, similar to pandas in Python.
