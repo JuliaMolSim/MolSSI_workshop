@@ -4,6 +4,8 @@ This repo houses the content for the Sunday afternoon Intro to Julia session of 
 
 ## 1. Introduction to Julia
 
+A nice resource to be aware of in this general category is the [first post of Modern Julia Workflows](https://modernjuliaworkflows.org/writing/), which covers many similar topics: installing Julia, the REPL, IDE setup, environments, etc., as well as a few we likely won't have time to go into in much depth such as debugging tools.
+
 ### Install Julia
 
 Windows: 
