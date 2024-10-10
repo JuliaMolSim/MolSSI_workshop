@@ -57,7 +57,7 @@ Introduction to plotting in Julia using Plots.jl, with examples of common plots 
   - Array Views & Memory Allocations: Techniques to reduce memory usage and improve performance.
   - Type Stability: Understanding and ensuring type stability for faster execution.
 
-## 7. Advanced Topics
+## 7. [Advanced Topics:](advanced.ipynb)
   - **Basic Parallelization**: Introduction to multi-threading in Julia, with simple examples to parallelize loops and tasks.
   - **Basic GPU Programming**: Overview of high-level interfaces for GPU computing, making it accessible without deep GPU programming knowledge.
   - **Automatic Differentiation (AD)**:Brief introduction to automatic differentiation and some of its implementations in Julia
