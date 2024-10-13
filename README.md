@@ -1,23 +1,16 @@
 # Pre-Workshop: Julia, Jupyter, and VS Code Setup Guide for Julia Programming
 
 ## 1. Install Julia (via JuliaUp)
-`JuliaUp` is a convenient way to install and manage Julia versions.
+[Juliaup](https://github.com/JuliaLang/juliaup) is a convenient way to install and manage Julia versions.
 
-### Install JuliaUp
-1. **Windows**:
-    - Go to the Microsoft Store and search for **Julia**.
-    - Install **Julia** from the official Julia team (this uses `JuliaUp` for easy version management).
-2. **Linux**:
-    - Open your terminal and run the following command to install `JuliaUp`:
-    ```bash
-    curl -fsSL https://install.julialang.org | sh
-    ```
-3. **macOS**:
-    - Open your terminal and run:
-    ```bash
-    brew install juliaup
-    ```
-    - Make sure you have [Homebrew](https://brew.sh/) installed first.
+### Install Juliaup
+1. **Windows**: 
+    - option 1: In the command prompt, run 
+`winget install julia -s msstore`
+    - option 2: Go to the Microsoft Store and search for **Julia**. Install the offering from the official Julia team.
+2. **Linux or macOS**:
+    - option 1: In your terminal, run `curl -fsSL https://install.julialang.org | sh`
+    - alternative Mac-only option: If you have [Homebrew](https://brew.sh/) installed, you can also open your terminal and run `brew install juliaup`
     
 ### Manage Julia Versions
 Once installed, you can manage Julia versions easily with `juliaup`. For example:
