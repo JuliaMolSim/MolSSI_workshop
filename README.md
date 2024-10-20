@@ -46,14 +46,14 @@ Visual Studio Code (VS Code) is now the recommended IDE to use with Julia. To in
 
 NOTE: We will mostly be demonstrating notebooks from within VS Code. If you prefer to run Jupyter notebooks in your browser instead of in VS Code, you can do that too. For this, you will need the [IJulia](https://github.com/JuliaLang/IJulia.jl) to give Jupyter access to a Julia kernel.
 
-## 1. Introduction to Julia
+## [1. Introduction to Julia](1_juliaintro.md)
 
 A nice resource to be aware of in this general category is the [first post of Modern Julia Workflows](https://modernjuliaworkflows.org/writing/), which covers many similar topics: installing Julia, the REPL, IDE setup, environments, etc., as well as a few we likely won't have time to go into in much depth such as debugging tools.
 
 * Making sure everyone completed the pre-setup and has a working environment
 * Introduction to the Julia REPL and its various modes, particularly `pkg>` mode for managing environments and packages
 
-## 2. [Julia Syntax Essentials:](syntax.ipynb)
+## 2. [Julia Syntax Essentials:](2_syntax.ipynb)
   - **Variables & Types**: Declaring variables (including with fun Unicode symbols!), introduction to Julia’s type system, variable scope, and immutability.
   - **Functions**: Defining and calling functions, using multiple return values.
   - **Loops & Conditionals**: Understanding control flow with for, while, if, and else.
@@ -61,7 +61,7 @@ A nice resource to be aware of in this general category is the [first post of Mo
   - **Broadcasting**: Efficiently applying functions across arrays and other collections.
   - **File I/O**: Basics of reading from and writing to files.
     
-## 3. [Leveraging Julia’s Power](whyjulia.ipynb)
+## 3. [Leveraging Julia’s Power](3_whyjulia.ipynb)
   - Why Julia?
     - Overview of Julia’s key features: speed, ease of use, and suitability for scientific computing.
     - Comparison with other languages like Python and MATLAB in terms of performance and syntax.
@@ -70,7 +70,7 @@ A nice resource to be aware of in this general category is the [first post of Mo
     - Interfaces (demo, examples)
     - Quick look at useful development tools provided by the package manager.
 
-## 4. [Working with Numerical Data](numericaldata.ipynb)
+## 4. [Working with Numerical Data](4_numericaldata.ipynb)
 Key Packages:
   - **LinearAlgebra**: Essential functions for matrix operations and linear algebra.
   - **DataFrames**: Handling tabular data, similar to pandas in Python.
@@ -81,12 +81,12 @@ Key Packages:
 ## 5. Plotting:
 Introduction to plotting in Julia using Plots.jl, with examples of common plots and constructs like plot recipes (may be integrated into prior section).
 
-## 6. [Benchmarking and Optimizing Code:](optimization.ipynb)
+## 6. [Benchmarking and Optimizing Code:](5_optimization.ipynb)
   - BenchmarkTools.jl: How to measure code performance accurately.
   - Array Views & Memory Allocations: Techniques to reduce memory usage and improve performance.
   - Type Stability: Understanding and ensuring type stability for faster execution.
 
-## 7. [Advanced Topics:](advanced.ipynb)
+## 7. [Advanced Topics:](6_advanced.ipynb)
   - **Basic Parallelization**: Introduction to multi-threading in Julia, with simple examples to parallelize loops and tasks.
   - **Basic GPU Programming**: Overview of high-level interfaces for GPU computing, making it accessible without deep GPU programming knowledge.
   - **Automatic Differentiation (AD)**:Brief introduction to automatic differentiation and some of its implementations in Julia
