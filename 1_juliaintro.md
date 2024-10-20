@@ -11,14 +11,14 @@
 
 - Welcome to the REPL
 
-> Julia's REPL (Read-Eval-Print Loop) is an interactive command-line interface that allows users to execute Julia code in real time. It supports multiple modes, such as the default mode for executing Julia code, the package manager mode (accessed by pressing `]`), shell mode (accessed by `;`), and help mode (accessed by `?`). The REPL is a powerful tool for experimenting with code, managing packages, and quickly accessing documentation or system commands within the same session.
+> Julia's REPL (Read-Eval-Print Loop) is an interactive command-line interface that allows users to execute Julia code in real time. It provides a convenient way to experiment with code, test functions, and explore the language's features.
 
     - In VSCode, go to the search bar and type `Julia: Start REPL` to start the REPL.
     - In your terminal, type `julia` and hit Enter to start the Julia REPL.
 
 - Customization of the REPL
     - Add [`OhMyREPL`](https://github.com/KristofferC/OhMyREPL.jl) to your Julia environment by running `] add OhMyREPL` in the REPL.
-    - Modify the `startup.jl` file:
+    - Customization:
         The `startup.jl` file in Julia is an optional file that can be used to execute custom code every time a Julia session starts. It can be useful for setting configurations, loading frequently used packages, or defining custom functions.
             - Location of startup.jl on Different Systems:
                 - Linux/macOS:
@@ -31,9 +31,9 @@
                     ```
 
 - REPL modes:
-    - Help mode
-    - Shell mode
-    - Package mode
+    - Help mode (accessed by `?`)
+    - Shell mode (accessed by `;`)
+    - Package mode (accessed by `]`)
 
 - Package management
 
