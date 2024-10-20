@@ -46,6 +46,9 @@ Visual Studio Code (VS Code) is now the recommended IDE to use with Julia. To in
 
 NOTE: We will mostly be demonstrating notebooks from within VS Code. If you prefer to run Jupyter notebooks in your browser instead of in VS Code, you can do that too. For this, you will need the [IJulia](https://github.com/JuliaLang/IJulia.jl) to give Jupyter access to a Julia kernel.
 
+### 0.5 Download this repository!
+To run things locally, clone this repository with your favorite git client. Or, just download the repo directly using the button on the top right.
+
 ## 1. Introduction to Julia
 
 A nice resource to be aware of in this general category is the [first post of Modern Julia Workflows](https://modernjuliaworkflows.org/writing/), which covers many similar topics: installing Julia, the REPL, IDE setup, environments, etc., as well as a few we likely won't have time to go into in much depth such as debugging tools.
