@@ -17,7 +17,7 @@
     - In your terminal, type `julia` and hit Enter to start the Julia REPL.
 
 - Customization of the REPL
-    - Add `OhMyREPL` to your Julia environment by running `] add OhMyREPL` in the REPL.
+    - Add [`OhMyREPL`](https://github.com/KristofferC/OhMyREPL.jl) to your Julia environment by running `] add OhMyREPL` in the REPL.
     - Modify the `startup.jl` file:
         The `startup.jl` file in Julia is an optional file that can be used to execute custom code every time a Julia session starts. It can be useful for setting configurations, loading frequently used packages, or defining custom functions.
             - Location of startup.jl on Different Systems:
@@ -29,7 +29,7 @@
                     ```
                     C:\Users\YourUsername\.julia\config\startup.jl
                     ```
-                    
+
 - REPL modes:
     - Help mode
     - Shell mode
